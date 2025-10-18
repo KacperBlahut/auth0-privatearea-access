@@ -43,6 +43,7 @@ The application allows a user to:
 ## Project Structure
 
 ZADANIE_KWALIFIKACYJNE/
+
 ├─ client-frontend/     → React UI (login, logout, private area view)
 
 ├─ client-backend/      → Auth code → token exchange (Auth0 proxy)
