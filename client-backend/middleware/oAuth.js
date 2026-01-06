@@ -12,8 +12,8 @@ const oAuth = async (req, res, next) => {
   try {
     const params = new URLSearchParams();
     params.append("grant_type", "authorization_code");
-    params.append("client_id", "tmT4BNcfk8fpvDr81DedZzpEdullhEkm");
-    params.append("client_secret", "x-BACpVikCH_suRGpspsRqz0jN-wH9kHWRiJizx1I9HmYWLK0EO1WhAJTYTisGI4");
+    params.append("client_id", "");
+    params.append("client_secret", "");
     params.append("code", code);
     params.append("redirect_uri", "http://localhost:3000/privatearea");
 
